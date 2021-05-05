@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.streese.lab.scala.playground.proto.models;
+
+message AddBefore {
+
+  int32 a = 1;
+
+}

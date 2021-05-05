@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.streese.lab.scala.playground.proto.models;
+
+message RenameBefore {
+
+  int32 a = 1;
+  int32 b = 2;
+
+}

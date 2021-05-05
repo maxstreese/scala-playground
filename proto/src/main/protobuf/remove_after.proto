@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.streese.lab.scala.playground.proto.models;
+
+message RemoveAfter {
+
+  reserved 1;
+  reserved "a";
+
+  int32 b = 2 [deprecated = true];
+  int32 c = 3;
+
+}

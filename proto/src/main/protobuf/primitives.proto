@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "google/protobuf/wrappers.proto";
+
+package com.streese.lab.scala.playground.proto.models;
+
+message Primitives {
+
+  int32                      unwrapped = 1;
+  google.protobuf.Int32Value wrapped   = 2;
+
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.streese.lab.scala.playground.proto.models;
+
+message RemoveBefore {
+
+  int32 a = 1;
+  int32 b = 2;
+  int32 c = 3;
+
+}
